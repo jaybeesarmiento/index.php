@@ -10,6 +10,6 @@
      echo "Connection to server sucessfully"; 
      //check whether server is running or not 
      echo "Server is running: ".$redis->ping();
-   } catch (Exception e) {
+   } catch (Exception $e) {
      echo "Error Connecting to ".$host;
    }
